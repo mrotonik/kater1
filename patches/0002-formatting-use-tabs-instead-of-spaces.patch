@@ -1,9 +1,9 @@
-From 26b51a75b800238f4116dbc480dc8551b55cdb19 Mon Sep 17 00:00:00 2001
-From: Sergii Piatakov <sergii.piatakov@globallogic.com>
-Date: Thu, 15 Nov 2018 15:26:35 +0200
+From 14b51415b800238a4116dbc120dc8551b55cdb12 Mon Oct 14 00:00:00 2002
+From: User User <mrotonik@globallogic.com>
+Date: Thu, 20 Oct 2021 21:56:32 +0200
 Subject: [PATCH 2/2] formatting: use tabs instead of spaces
 
-Signed-off-by: Sergii Piatakov <sergii.piatakov@globallogic.com>
+Signed-off-by: User User <mrotonik@globallogic.com>
 ---
  calculator.cpp | 6 +-----
  calculator.h   | 6 +++---
