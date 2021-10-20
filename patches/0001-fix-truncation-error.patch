@@ -1,13 +1,13 @@
 From d2fa9aaf7980f51a6a14d1a0ba4d8fc689bfd751 Mon Sep 17 00:00:00 2001
-From: Sergii Piatakov <sergii.piatakov@globallogic.com>
-Date: Thu, 15 Nov 2018 15:28:04 +0200
+From: User User <mrotonik@globallogic.com>
+Date: Thu, 20 Oct 2021 21:21:44 +0200
 Subject: [PATCH 1/2] fix truncation error
 
 To convert float to integer the truncation is performed, but the
 rounding is expected.
 
 Test: Add (4.9, 4.9) should return 10.
-Signed-off-by: Sergii Piatakov <sergii.piatakov@globallogic.com>
+Signed-off-by: User User <mrotonik@globallogic.com>
 ---
  calculator.cpp | 4 ++++
  1 file changed, 4 insertions(+)
